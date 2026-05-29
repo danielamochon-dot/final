@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Fine Arts Studio or register for upcoming course periods via our secure communication form.">
+    <title>Contact & Register | Fine Arts Studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo-area">
+                <img src="images/logo.png" alt="Fine Arts Studio Crest Logo" class="logo-img">
+                <h1>Fine Arts Studio</h1>
+            </div>
+            <nav class="main-nav" aria-label="Main Site Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <h2>Connect With Our Studio Team</h2>
+        <p>Have questions about prerequisites, financial aid packages, or canvas setups? Drop us a digital message or submit a seat registration request using the accessible form interface below.</p>
+
+        <form action="#" method="post" class="registration-form">
+            <div class="form-group">
+                <label biographies-field for="full-name">Full Legal Name:</label>
+                <input type="text" id="full-name" name="fullName" class="form-control" autocomplete="name" required placeholder="Jane Doe">
+            </div>
+
+            <div class="form-group">
+                <label for="email-address">Email Address:</label>
+                <input type="email" id="email-address" name="emailAddress" class="form-control" autocomplete="email" required placeholder="janedoe@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="course-select">Select a Medium Track:</label>
+                <select id="course-select" name="courseSelect" class="form-control" required>
+                    <option value="" disabled selected>-- Choose an Art Track --</option>
+                    <option value="watercolor">Watercolor Foundations</option>
+                    <option value="canvas">Advanced Canvas Composition</option>
+                    <option value="wheel">Wheel-Throwing Fundamentals</option>
+                    <option value="glazing">Intermediate Glazing Dynamics</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="user-message">Inquiry Message or Special Accommodations:</label>
+                <textarea id="user-message" name="userMessage" rows="5" class="form-control" placeholder="Tell us about your goals or mention any accessibility adjustments you might need..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit Registration Information</button>
+        </form>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Fine Arts Studio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
