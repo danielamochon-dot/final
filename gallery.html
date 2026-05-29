@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View digital showcases of student artwork and explore an interactive video tour of our actual studio facilities.">
+    <title>Student Gallery | Fine Arts Studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo-area">
+                <img src="images/logo.png" alt="Fine Arts Studio Crest Logo" class="logo-img">
+                <h1>Fine Arts Studio</h1>
+            </div>
+            <nav class="main-nav" aria-label="Main Site Navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="gallery.html" class="active" aria-current="page">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="container">
+        <h2>Exhibition Showcase</h2>
+        <p>Our student exhibition highlights original works engineered dynamically directly on site within our studios.</p>
+
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <img src="images/gallery-exhibit.jpg" alt="An oil landscape painting featuring gold trees sitting beside a mountain lake">
+                <p style="padding:10px; font-style:italic;">"Autumn Solitude" — Painted by Level 2 Student Alan Thorne.</p>
+            </div>
+        </div>
+
+        <hr style="margin:40px 0; border:0; border-top:1px solid var(--border-color);">
+
+        <h2>Studio Environment Tour (Multimedia Element)</h2>
+        <p>For visitors with visual impairments or those experiencing limited mobility, this video shows our accessible wheel setup and low-glare instructional lighting environments.</p>
+
+        <div class="video-wrapper">
+            <video controls poster="images/poster-video.jpg" preload="metadata">
+                <source src="images/studio-tour.mp4" type="video/mp4">
+                <track src="captions.vtt" kind="captions" srclang="en" label="English Captions" default>
+                Your browser does not support the HTML5 video tag.
+            </video>
+        </div>
+
+        <div class="transcript-box">
+            <h3>Audio-Visual Transcript</h3>
+            <p><strong>[Visual]:</strong> The video camera opens on a smooth, wide-angle sweep of an art workspace. Students are calmly painting at height-adjustable oak easels while bright sunlight beams through windows.</p>
+            <p><strong>[Audio]:</strong> Ambient acoustic guitar strings play quietly in the background as the studio tour narrator begins talking about our enrollment space details.</p>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Fine Arts Studio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
